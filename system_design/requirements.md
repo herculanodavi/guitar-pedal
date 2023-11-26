@@ -16,10 +16,10 @@ Given basic requirments, let's dive deeper into each subsystem.
 ### Effect controls
 
 - Two effects controls:
-  - One bistable button with LED for activation.
+  - One latched pushbutton with LED for activation with 15mcd illuminance.
   - Three knobs for effect parameters.
-- One activation button for effect set.
-- One LED for active mode indication.
+- One footswitch for effect set.
+- One LED with 15mcd illuminance for active mode indication.
 - All controls should have ESD protection.
 
 
