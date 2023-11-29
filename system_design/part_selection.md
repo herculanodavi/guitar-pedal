@@ -5,9 +5,9 @@ Given the reference design of the course, parts will only be different if there 
 ## Effect controls
 
 - **Bistable buttons with LED:** LP4EE1PBCTR. It's a relatively cheap latched button with illumination. 2.2V illumination voltage and 0.1A current rating for 200mcd, so its consumption will be 1.5mA. 
-- **Knobs for filter parameters:** (searching)
+- **Knobs for filter parameters:** PTV09A-4020F-B103. A cheap 10k linear single-gang potentiometer from Bourns.
 - **Bistable footswitch:** (searching)
-- **LED indicator:** (searching)
+- **LED indicator:** T1341MND-20P000312U1930. The cheapest 1206 white LED I could find.
   
 ## USB
 
