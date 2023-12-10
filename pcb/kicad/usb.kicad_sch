@@ -770,6 +770,17 @@
     (uuid f9770d19-86fa-4917-a1b1-26dabc209734)
   )
 
+  (rectangle (start 88.9 55.88) (end 205.74 142.24)
+    (stroke (width 0) (type dash))
+    (fill (type none))
+    (uuid 62ca390c-1c0b-4ca8-8704-f61416042802)
+  )
+
+  (text "USB" (at 88.9 54.61 0)
+    (effects (font (size 2.54 2.54)) (justify left bottom))
+    (uuid 58b7d0af-db15-4782-9a4f-fe68d6d4a4e5)
+  )
+
   (label "D+" (at 132.08 90.17 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 279e862a-0994-4bab-b745-e1db89722af7)
