@@ -1,0 +1,15 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 676d556b-fb8a-4695-9d02-6fa8839d81c9)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "vbus" (shape bidirectional) (at 57.15 76.2 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid b865e7c0-301f-413a-9b65-9aa76f5312b3)
+  )
+)

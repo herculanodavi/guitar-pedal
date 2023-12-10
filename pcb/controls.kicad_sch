@@ -1,0 +1,31 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 30cfbea1-79c4-4aea-88ca-4f4bd521e2d8)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "pedal_en" (shape output) (at 59.69 118.11 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 674330db-036c-4962-91f3-098d65ec41a3)
+  )
+  (hierarchical_label "effect2_knob[0..2]" (shape output) (at 59.69 106.68 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 80142ab8-2474-42d2-8e32-dba43a74dd52)
+  )
+  (hierarchical_label "effect1_knob[0..2]" (shape output) (at 59.69 91.44 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 829086d4-be80-41b6-89b6-3e2e60d58a4d)
+  )
+  (hierarchical_label "effect1_en" (shape output) (at 59.69 93.98 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 8e93d31d-55a2-4fa7-9ba6-4f34cf961ae9)
+  )
+  (hierarchical_label "effect2_en" (shape output) (at 59.69 109.22 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid bbd0cabf-603b-4972-97b3-fc8a34992905)
+  )
+)
