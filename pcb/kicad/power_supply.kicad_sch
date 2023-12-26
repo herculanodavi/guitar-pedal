@@ -989,7 +989,7 @@
     (uuid bae46ad3-2819-42bf-a024-a962d764de83)
   )
 
-  (hierarchical_label "vbus" (shape bidirectional) (at 27.94 62.23 180) (fields_autoplaced)
+  (hierarchical_label "VBUS" (shape input) (at 27.94 62.23 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid b865e7c0-301f-413a-9b65-9aa76f5312b3)
   )
@@ -997,7 +997,7 @@
   (symbol (lib_id "Device:R") (at 208.28 91.44 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0de08b6d-cde5-484d-8b18-41cb8b040182)
-    (property "Reference" "R6" (at 210.82 90.17 0)
+    (property "Reference" "R204" (at 210.82 90.17 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1k" (at 210.82 92.71 0)
@@ -1014,7 +1014,7 @@
     (instances
       (project "guitar-pedal"
         (path "/aeca30b5-691d-475f-a243-a02c48b6690c/87d54cf0-3e2a-4f61-ade7-69dbca04292f"
-          (reference "R6") (unit 1)
+          (reference "R204") (unit 1)
         )
       )
     )
@@ -1023,7 +1023,7 @@
   (symbol (lib_id "Device:R") (at 80.01 62.23 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0f8f4702-7bc9-4337-b49d-5002e39fba84)
-    (property "Reference" "R3" (at 80.01 55.88 90)
+    (property "Reference" "R201" (at 80.01 55.88 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10R" (at 80.01 58.42 90)
@@ -1040,7 +1040,7 @@
     (instances
       (project "guitar-pedal"
         (path "/aeca30b5-691d-475f-a243-a02c48b6690c/87d54cf0-3e2a-4f61-ade7-69dbca04292f"
-          (reference "R3") (unit 1)
+          (reference "R201") (unit 1)
         )
       )
     )
@@ -1049,7 +1049,7 @@
   (symbol (lib_id "power:GND") (at 217.17 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 11a51cdc-efd2-4afd-841c-ea9c9ff9cc7b)
-    (property "Reference" "#PWR016" (at 217.17 96.52 0)
+    (property "Reference" "#PWR0212" (at 217.17 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 220.98 92.71 0)
@@ -1065,7 +1065,7 @@
     (instances
       (project "guitar-pedal"
         (path "/aeca30b5-691d-475f-a243-a02c48b6690c/87d54cf0-3e2a-4f61-ade7-69dbca04292f"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR0212") (unit 1)
         )
       )
     )
@@ -1074,7 +1074,7 @@
   (symbol (lib_id "Regulator_Switching:TLV62569DBV") (at 114.3 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1d3635f8-eb57-4397-b42e-7cd085ab5768)
-    (property "Reference" "U2" (at 114.3 100.33 0)
+    (property "Reference" "U202" (at 114.3 100.33 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TLV62569DBV" (at 114.3 102.87 0)
@@ -1094,7 +1094,7 @@
     (instances
       (project "guitar-pedal"
         (path "/aeca30b5-691d-475f-a243-a02c48b6690c/87d54cf0-3e2a-4f61-ade7-69dbca04292f"
-          (reference "U2") (unit 1)
+          (reference "U202") (unit 1)
         )
       )
     )
@@ -1103,7 +1103,7 @@
   (symbol (lib_id "power:GND") (at 157.48 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 257b3242-e888-4f3c-b0f8-85091060685d)
-    (property "Reference" "#PWR013" (at 157.48 137.16 0)
+    (property "Reference" "#PWR0208" (at 157.48 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 157.48 135.89 0)
@@ -1119,7 +1119,7 @@
     (instances
       (project "guitar-pedal"
         (path "/aeca30b5-691d-475f-a243-a02c48b6690c/87d54cf0-3e2a-4f61-ade7-69dbca04292f"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR0208") (unit 1)
         )
       )
     )
@@ -1128,7 +1128,7 @@
   (symbol (lib_id "power:+5V") (at 64.77 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2a7206d7-03a2-4925-bdf3-706df197fb31)
-    (property "Reference" "#PWR08" (at 64.77 66.04 0)
+    (property "Reference" "#PWR0204" (at 64.77 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 64.77 57.15 0)
@@ -1144,7 +1144,7 @@
     (instances
       (project "guitar-pedal"
         (path "/aeca30b5-691d-475f-a243-a02c48b6690c/87d54cf0-3e2a-4f61-ade7-69dbca04292f"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR0204") (unit 1)
         )
       )
     )
@@ -1153,7 +1153,7 @@
   (symbol (lib_id "power:GND") (at 34.29 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 407f34f1-2d53-4060-99e3-5df6a7025764)
-    (property "Reference" "#PWR06" (at 34.29 76.2 0)
+    (property "Reference" "#PWR0202" (at 34.29 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 34.29 74.93 0)
@@ -1169,7 +1169,7 @@
     (instances
       (project "guitar-pedal"
         (path "/aeca30b5-691d-475f-a243-a02c48b6690c/87d54cf0-3e2a-4f61-ade7-69dbca04292f"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR0202") (unit 1)
         )
       )
     )
@@ -1178,7 +1178,7 @@
   (symbol (lib_id "Device:C") (at 34.29 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 411e5586-911e-45df-8831-a701b7363ac7)
-    (property "Reference" "C1" (at 38.1 64.77 0)
+    (property "Reference" "C201" (at 38.1 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 38.1 67.31 0)
@@ -1195,7 +1195,7 @@
     (instances
       (project "guitar-pedal"
         (path "/aeca30b5-691d-475f-a243-a02c48b6690c/87d54cf0-3e2a-4f61-ade7-69dbca04292f"
-          (reference "C1") (unit 1)
+          (reference "C201") (unit 1)
         )
       )
     )
@@ -1204,7 +1204,7 @@
   (symbol (lib_id "Device:C") (at 144.78 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4510795f-e9b5-4c7c-a438-2bff9c64d92e)
-    (property "Reference" "C6" (at 148.59 113.03 0)
+    (property "Reference" "C206" (at 148.59 113.03 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22u" (at 148.59 115.57 0)
@@ -1221,7 +1221,7 @@
     (instances
       (project "guitar-pedal"
         (path "/aeca30b5-691d-475f-a243-a02c48b6690c/87d54cf0-3e2a-4f61-ade7-69dbca04292f"
-          (reference "C6") (unit 1)
+          (reference "C206") (unit 1)
         )
       )
     )
@@ -1230,7 +1230,7 @@
   (symbol (lib_id "power:GND") (at 233.68 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4aca152c-b157-400b-8a27-101d316abff7)
-    (property "Reference" "#PWR019" (at 233.68 115.57 0)
+    (property "Reference" "#PWR0214" (at 233.68 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 237.49 111.76 0)
@@ -1246,7 +1246,7 @@
     (instances
       (project "guitar-pedal"
         (path "/aeca30b5-691d-475f-a243-a02c48b6690c/87d54cf0-3e2a-4f61-ade7-69dbca04292f"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR0214") (unit 1)
         )
       )
     )
@@ -1255,7 +1255,7 @@
   (symbol (lib_id "Device:C") (at 218.44 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5ef814d6-1e10-484a-86d1-f657cd4fcc60)
-    (property "Reference" "C9" (at 222.25 101.6 0)
+    (property "Reference" "C208" (at 222.25 101.6 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22u" (at 222.25 104.14 0)
@@ -1272,7 +1272,7 @@
     (instances
       (project "guitar-pedal"
         (path "/aeca30b5-691d-475f-a243-a02c48b6690c/87d54cf0-3e2a-4f61-ade7-69dbca04292f"
-          (reference "C9") (unit 1)
+          (reference "C208") (unit 1)
         )
       )
     )
@@ -1281,7 +1281,7 @@
   (symbol (lib_id "Device:R") (at 157.48 114.3 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6916a983-80a6-4471-b964-6201c0fba8e5)
-    (property "Reference" "R4" (at 160.02 113.03 0)
+    (property "Reference" "R202" (at 160.02 113.03 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (at 160.02 115.57 0)
@@ -1298,7 +1298,7 @@
     (instances
       (project "guitar-pedal"
         (path "/aeca30b5-691d-475f-a243-a02c48b6690c/87d54cf0-3e2a-4f61-ade7-69dbca04292f"
-          (reference "R4") (unit 1)
+          (reference "R202") (unit 1)
         )
       )
     )
@@ -1307,7 +1307,7 @@
   (symbol (lib_id "Device:C") (at 226.06 88.9 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 75a2c4ba-0722-4306-81e1-481c3214dbc3)
-    (property "Reference" "C8" (at 226.06 81.28 90)
+    (property "Reference" "C209" (at 226.06 81.28 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 226.06 83.82 90)
@@ -1324,7 +1324,7 @@
     (instances
       (project "guitar-pedal"
         (path "/aeca30b5-691d-475f-a243-a02c48b6690c/87d54cf0-3e2a-4f61-ade7-69dbca04292f"
-          (reference "C8") (unit 1)
+          (reference "C209") (unit 1)
         )
       )
     )
@@ -1333,7 +1333,7 @@
   (symbol (lib_id "Device:L") (at 45.72 62.23 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 813f4b98-1052-4da2-ac85-59b6300f382b)
-    (property "Reference" "L1" (at 45.72 57.15 90)
+    (property "Reference" "L201" (at 45.72 57.15 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10n" (at 45.72 59.69 90)
@@ -1350,7 +1350,7 @@
     (instances
       (project "guitar-pedal"
         (path "/aeca30b5-691d-475f-a243-a02c48b6690c/87d54cf0-3e2a-4f61-ade7-69dbca04292f"
-          (reference "L1") (unit 1)
+          (reference "L201") (unit 1)
         )
       )
     )
@@ -1359,7 +1359,7 @@
   (symbol (lib_id "power:GND") (at 114.3 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 843d9d98-d375-4934-9e17-95eca8bfefd3)
-    (property "Reference" "#PWR09" (at 114.3 83.82 0)
+    (property "Reference" "#PWR0205" (at 114.3 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 114.3 82.55 0)
@@ -1375,7 +1375,7 @@
     (instances
       (project "guitar-pedal"
         (path "/aeca30b5-691d-475f-a243-a02c48b6690c/87d54cf0-3e2a-4f61-ade7-69dbca04292f"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR0205") (unit 1)
         )
       )
     )
@@ -1384,7 +1384,7 @@
   (symbol (lib_id "Device:C") (at 134.62 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8a9fabf0-39e2-44a3-b46d-306cb4eeb156)
-    (property "Reference" "C4" (at 138.43 66.04 0)
+    (property "Reference" "C205" (at 138.43 66.04 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22u" (at 138.43 68.58 0)
@@ -1401,7 +1401,7 @@
     (instances
       (project "guitar-pedal"
         (path "/aeca30b5-691d-475f-a243-a02c48b6690c/87d54cf0-3e2a-4f61-ade7-69dbca04292f"
-          (reference "C4") (unit 1)
+          (reference "C205") (unit 1)
         )
       )
     )
@@ -1410,7 +1410,7 @@
   (symbol (lib_id "power:VBUS") (at 30.48 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 91423fbb-e232-4586-8aeb-93bc849c2020)
-    (property "Reference" "#PWR011" (at 30.48 66.04 0)
+    (property "Reference" "#PWR0201" (at 30.48 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 30.48 57.15 0)
@@ -1426,7 +1426,7 @@
     (instances
       (project "guitar-pedal"
         (path "/aeca30b5-691d-475f-a243-a02c48b6690c/87d54cf0-3e2a-4f61-ade7-69dbca04292f"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR0201") (unit 1)
         )
       )
     )
@@ -1435,7 +1435,7 @@
   (symbol (lib_id "Device:C") (at 170.18 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 91f58b53-6c8f-4b05-9a61-44ccbf91b47a)
-    (property "Reference" "C7" (at 173.99 111.76 0)
+    (property "Reference" "C207" (at 173.99 111.76 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DNP" (at 173.99 114.3 0)
@@ -1452,7 +1452,7 @@
     (instances
       (project "guitar-pedal"
         (path "/aeca30b5-691d-475f-a243-a02c48b6690c/87d54cf0-3e2a-4f61-ade7-69dbca04292f"
-          (reference "C7") (unit 1)
+          (reference "C207") (unit 1)
         )
       )
     )
@@ -1461,7 +1461,7 @@
   (symbol (lib_id "power:+3.3VA") (at 233.68 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ad449493-003e-416c-852d-4da53478ae5e)
-    (property "Reference" "#PWR015" (at 233.68 87.63 0)
+    (property "Reference" "#PWR0213" (at 233.68 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3VA" (at 233.68 78.74 0)
@@ -1477,7 +1477,7 @@
     (instances
       (project "guitar-pedal"
         (path "/aeca30b5-691d-475f-a243-a02c48b6690c/87d54cf0-3e2a-4f61-ade7-69dbca04292f"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR0213") (unit 1)
         )
       )
     )
@@ -1486,7 +1486,7 @@
   (symbol (lib_id "power:+3.3VA") (at 208.28 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b2078253-85fd-458b-a568-f37387e654f9)
-    (property "Reference" "#PWR017" (at 208.28 87.63 0)
+    (property "Reference" "#PWR0210" (at 208.28 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3VA" (at 208.28 78.74 0)
@@ -1502,7 +1502,7 @@
     (instances
       (project "guitar-pedal"
         (path "/aeca30b5-691d-475f-a243-a02c48b6690c/87d54cf0-3e2a-4f61-ade7-69dbca04292f"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR0210") (unit 1)
         )
       )
     )
@@ -1511,7 +1511,7 @@
   (symbol (lib_id "Device:C") (at 97.79 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b22f4ad7-bb13-4458-afca-e4c83c451f8d)
-    (property "Reference" "C5" (at 101.6 113.03 0)
+    (property "Reference" "C204" (at 101.6 113.03 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22u" (at 101.6 115.57 0)
@@ -1528,7 +1528,7 @@
     (instances
       (project "guitar-pedal"
         (path "/aeca30b5-691d-475f-a243-a02c48b6690c/87d54cf0-3e2a-4f61-ade7-69dbca04292f"
-          (reference "C5") (unit 1)
+          (reference "C204") (unit 1)
         )
       )
     )
@@ -1537,7 +1537,7 @@
   (symbol (lib_id "Device:C") (at 55.88 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b36b9b0c-886d-4648-908f-9bd63c9e6ffd)
-    (property "Reference" "C2" (at 59.69 64.77 0)
+    (property "Reference" "C202" (at 59.69 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 59.69 67.31 0)
@@ -1554,7 +1554,7 @@
     (instances
       (project "guitar-pedal"
         (path "/aeca30b5-691d-475f-a243-a02c48b6690c/87d54cf0-3e2a-4f61-ade7-69dbca04292f"
-          (reference "C2") (unit 1)
+          (reference "C202") (unit 1)
         )
       )
     )
@@ -1563,7 +1563,7 @@
   (symbol (lib_id "power:VCOM") (at 261.62 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b49c7b4e-c9e9-4f75-967a-6afa62520a09)
-    (property "Reference" "#PWR020" (at 261.62 97.79 0)
+    (property "Reference" "#PWR0215" (at 261.62 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCOM" (at 261.62 88.9 0)
@@ -1579,7 +1579,7 @@
     (instances
       (project "guitar-pedal"
         (path "/aeca30b5-691d-475f-a243-a02c48b6690c/87d54cf0-3e2a-4f61-ade7-69dbca04292f"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR0215") (unit 1)
         )
       )
     )
@@ -1588,7 +1588,7 @@
   (symbol (lib_id "power:+3V3") (at 170.18 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b7237609-3f9b-4f82-a053-8ff118215c0b)
-    (property "Reference" "#PWR014" (at 170.18 111.76 0)
+    (property "Reference" "#PWR0209" (at 170.18 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 170.18 102.87 0)
@@ -1604,7 +1604,7 @@
     (instances
       (project "guitar-pedal"
         (path "/aeca30b5-691d-475f-a243-a02c48b6690c/87d54cf0-3e2a-4f61-ade7-69dbca04292f"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR0209") (unit 1)
         )
       )
     )
@@ -1613,7 +1613,7 @@
   (symbol (lib_id "Regulator_Linear:HT75xx-1-SOT89_1") (at 114.3 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b7fae0cb-28f4-4ff2-ac6e-d0f568fe6261)
-    (property "Reference" "U1" (at 114.3 54.61 0)
+    (property "Reference" "U201" (at 114.3 54.61 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "HT7533-1" (at 114.3 57.15 0)
@@ -1631,7 +1631,7 @@
     (instances
       (project "guitar-pedal"
         (path "/aeca30b5-691d-475f-a243-a02c48b6690c/87d54cf0-3e2a-4f61-ade7-69dbca04292f"
-          (reference "U1") (unit 1)
+          (reference "U201") (unit 1)
         )
       )
     )
@@ -1640,7 +1640,7 @@
   (symbol (lib_id "power:+3.3VA") (at 134.62 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c29adc81-2dc6-482c-9339-dea82f88f80b)
-    (property "Reference" "#PWR010" (at 134.62 66.04 0)
+    (property "Reference" "#PWR0207" (at 134.62 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3VA" (at 134.62 57.15 0)
@@ -1656,7 +1656,7 @@
     (instances
       (project "guitar-pedal"
         (path "/aeca30b5-691d-475f-a243-a02c48b6690c/87d54cf0-3e2a-4f61-ade7-69dbca04292f"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR0207") (unit 1)
         )
       )
     )
@@ -1665,7 +1665,7 @@
   (symbol (lib_id "Device:L") (at 139.7 107.95 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d715c602-0c8b-4671-8e9a-4881515c82ca)
-    (property "Reference" "L2" (at 139.7 102.87 90)
+    (property "Reference" "L202" (at 139.7 102.87 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "68u" (at 139.7 105.41 90)
@@ -1682,7 +1682,7 @@
     (instances
       (project "guitar-pedal"
         (path "/aeca30b5-691d-475f-a243-a02c48b6690c/87d54cf0-3e2a-4f61-ade7-69dbca04292f"
-          (reference "L2") (unit 1)
+          (reference "L202") (unit 1)
         )
       )
     )
@@ -1691,7 +1691,7 @@
   (symbol (lib_id "Device:C") (at 95.25 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dc7108c2-afa6-4290-b391-e08414c88850)
-    (property "Reference" "C3" (at 99.06 66.04 0)
+    (property "Reference" "C203" (at 99.06 66.04 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22u" (at 99.06 68.58 0)
@@ -1708,7 +1708,7 @@
     (instances
       (project "guitar-pedal"
         (path "/aeca30b5-691d-475f-a243-a02c48b6690c/87d54cf0-3e2a-4f61-ade7-69dbca04292f"
-          (reference "C3") (unit 1)
+          (reference "C203") (unit 1)
         )
       )
     )
@@ -1717,7 +1717,7 @@
   (symbol (lib_id "power:GND") (at 55.88 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dc93a614-a0d3-4e4a-a182-bc33650b5625)
-    (property "Reference" "#PWR07" (at 55.88 76.2 0)
+    (property "Reference" "#PWR0203" (at 55.88 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 55.88 74.93 0)
@@ -1733,7 +1733,7 @@
     (instances
       (project "guitar-pedal"
         (path "/aeca30b5-691d-475f-a243-a02c48b6690c/87d54cf0-3e2a-4f61-ade7-69dbca04292f"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR0203") (unit 1)
         )
       )
     )
@@ -1742,7 +1742,7 @@
   (symbol (lib_id "Amplifier_Operational:MCP6001-OT") (at 236.22 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid df5f7cd5-81db-47cf-a1c5-a0f1058ca463)
-    (property "Reference" "U4" (at 248.92 94.8691 0)
+    (property "Reference" "U203" (at 248.92 94.8691 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MCP6001-OT" (at 248.92 97.4091 0)
@@ -1762,7 +1762,7 @@
     (instances
       (project "guitar-pedal"
         (path "/aeca30b5-691d-475f-a243-a02c48b6690c/87d54cf0-3e2a-4f61-ade7-69dbca04292f"
-          (reference "U4") (unit 1)
+          (reference "U203") (unit 1)
         )
       )
     )
@@ -1771,7 +1771,7 @@
   (symbol (lib_id "Device:R") (at 208.28 102.87 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e5b55029-7e0d-4e6c-85f4-7d861f456716)
-    (property "Reference" "R7" (at 210.82 101.6 0)
+    (property "Reference" "R205" (at 210.82 101.6 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1k" (at 210.82 104.14 0)
@@ -1788,7 +1788,7 @@
     (instances
       (project "guitar-pedal"
         (path "/aeca30b5-691d-475f-a243-a02c48b6690c/87d54cf0-3e2a-4f61-ade7-69dbca04292f"
-          (reference "R7") (unit 1)
+          (reference "R205") (unit 1)
         )
       )
     )
@@ -1797,7 +1797,7 @@
   (symbol (lib_id "power:GND") (at 114.3 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e91feefe-02e9-4c60-8b8f-07e3bb920c66)
-    (property "Reference" "#PWR012" (at 114.3 129.54 0)
+    (property "Reference" "#PWR0206" (at 114.3 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 114.3 128.27 0)
@@ -1813,7 +1813,7 @@
     (instances
       (project "guitar-pedal"
         (path "/aeca30b5-691d-475f-a243-a02c48b6690c/87d54cf0-3e2a-4f61-ade7-69dbca04292f"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR0206") (unit 1)
         )
       )
     )
@@ -1822,7 +1822,7 @@
   (symbol (lib_id "Device:R") (at 157.48 127 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f31506a2-b66d-41da-a155-515669229f3d)
-    (property "Reference" "R5" (at 160.02 125.73 0)
+    (property "Reference" "R203" (at 160.02 125.73 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "22k" (at 160.02 128.27 0)
@@ -1839,7 +1839,7 @@
     (instances
       (project "guitar-pedal"
         (path "/aeca30b5-691d-475f-a243-a02c48b6690c/87d54cf0-3e2a-4f61-ade7-69dbca04292f"
-          (reference "R5") (unit 1)
+          (reference "R203") (unit 1)
         )
       )
     )
@@ -1848,7 +1848,7 @@
   (symbol (lib_id "power:GND") (at 208.28 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fa31f0f8-13f3-4dd6-850c-05df08f4e0d6)
-    (property "Reference" "#PWR018" (at 208.28 115.57 0)
+    (property "Reference" "#PWR0211" (at 208.28 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 212.09 111.76 0)
@@ -1864,7 +1864,7 @@
     (instances
       (project "guitar-pedal"
         (path "/aeca30b5-691d-475f-a243-a02c48b6690c/87d54cf0-3e2a-4f61-ade7-69dbca04292f"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR0211") (unit 1)
         )
       )
     )
