@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "7.0.8"
+      "Version": "7.0.9"
     },
-    "CreationDate": "2023-12-28T00:41:14+01:00"
+    "CreationDate": "2023-12-29T23:30:02+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -120,6 +120,7 @@
     {
       "Type": "Dielectric",
       "Thickness": 0.2104,
+      "Material": "FR4",
       "Name": "F.Cu/In1.Cu",
       "Notes": "Type: dielectric layer 1 (from F.Cu to In1.Cu)"
     },
