@@ -135,6 +135,9 @@
     (property "Datasheet" "~" (at 242.57 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Supplier Link" "" (at 242.57 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (instances
       (project "guitar-pedal"
         (path "/aeca30b5-691d-475f-a243-a02c48b6690c"
@@ -157,6 +160,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 242.57 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Link" "" (at 242.57 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
@@ -183,6 +189,9 @@
     (property "Datasheet" "~" (at 242.57 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Supplier Link" "" (at 242.57 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (instances
       (project "guitar-pedal"
         (path "/aeca30b5-691d-475f-a243-a02c48b6690c"
@@ -207,6 +216,9 @@
     (property "Datasheet" "~" (at 242.57 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Supplier Link" "" (at 242.57 116.84 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (instances
       (project "guitar-pedal"
         (path "/aeca30b5-691d-475f-a243-a02c48b6690c"
@@ -229,6 +241,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 242.57 109.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Link" "" (at 242.57 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
